@@ -1,12 +1,24 @@
 # nlp--word-tally
 Web application that displays frequencies of English token words.
 
+## Prerequisites:  
+For virtual environment:
+```
+sudo apt install python3.10-venv
+```  
+For installation of psycopg2-binary (PostgreSQL database adapter for Python)
+```
+sudo apt install libpq-dev python3-dev
+```  
+
+## Usage:
+
 In bash, in nlp--word-tally directory, run:
 ```
 python3 -m venv env 
 source env/bin/activate
 pip install -r requirements.txt
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 Go to http://127.0.0.1:5000/
