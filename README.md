@@ -9,7 +9,7 @@ conda create -n nwt1 python=3.10
 For installation of psycopg2-binary (PostgreSQL database adapter for Python)
 ```
 sudo apt install libpq-dev python3-dev
-sudo apt install build-essential
+sudo apt install build-essential libpython3-dev libdbus-1-dev libglib2.0-dev
 ```  
 
 ## Usage:
