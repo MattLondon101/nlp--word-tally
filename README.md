@@ -2,23 +2,23 @@
 Web application that displays frequencies of English token words.
 
 ## Prerequisites:  
-For virtual environment:
-```
-sudo apt install python3.10-venv
+Create conda virtual env:
+```shell
+conda create -n nwt1 python=3.10
 ```  
 For installation of psycopg2-binary (PostgreSQL database adapter for Python)
 ```
 sudo apt install libpq-dev python3-dev
+sudo apt install build-essential
 ```  
 
 ## Usage:
 
 In bash, in nlp--word-tally directory, run:
 ```
-python3 -m venv env 
-source env/bin/activate
+conda activate nwt1
 pip install -r requirements.txt
-python3 manage.py runserver
+python manage.py runserver
 ```
 
 Go to http://127.0.0.1:5000/
