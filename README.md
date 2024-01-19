@@ -4,7 +4,7 @@ Web application that displays frequencies of English token words.
 ## Prerequisites:  
 Create conda virtual env:
 ```shell
-conda create -n nwt1 python=3.10
+conda create -n nwt1 python=3.8.3
 ```  
 For installation of psycopg2-binary (PostgreSQL database adapter for Python)
 ```
